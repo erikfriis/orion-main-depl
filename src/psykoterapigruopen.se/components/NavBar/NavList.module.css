@@ -1,0 +1,39 @@
+.navListContainer {
+	display: flex;
+	justify-content: space-around;
+}
+
+.navListContainer li {
+	font-weight: 400;
+	font-size: 20px;
+	margin: 0 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.navListContainer li:hover {
+	color: rgb(66, 66, 66);
+	cursor: pointer;
+}
+
+.navListContainer li img {
+	margin: 0.5rem;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+}
+
+.signUpButton {
+	position: absolute;
+	right: 3rem;
+	border: none;
+	background-color: #c3e0df;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.signUpButton:hover {
+	color: rgb(66, 66, 66);
+}

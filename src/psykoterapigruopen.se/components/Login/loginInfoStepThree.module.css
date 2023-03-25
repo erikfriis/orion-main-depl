@@ -1,0 +1,83 @@
+.container {
+	height: 60vh;
+	margin-top: 2rem;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	color: #3a3a3a;
+}
+
+.title {
+	font-weight: 600;
+	font-size: 36px;
+}
+
+.subtitleWrapper {
+	width: 50vw;
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+.choicesContainer {
+	width: 50vw;
+	display: flex;
+	flex-direction: row;
+}
+
+.choice {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-right: 1rem;
+}
+
+.choice p {
+	margin-left: 0.5rem;
+}
+
+
+.introInput {
+	margin-top: 2rem;
+}
+
+.textArea {
+	border-radius: 10px;
+	padding: 2px;
+	width: 50vw;
+	height: 20vh;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.questionsSelection {
+	margin-left: 20vw;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.questionsSelection div {
+	display: flex;
+	flex-direction: row;
+}
+
+.btnPoint {
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background-color: #d9d9d9;
+	margin: 5px;
+}
+
+.questionsSelection button {
+	border-radius: 15rem;
+	padding: 0.1rem 1rem;
+	border: none;
+	background-color: #d9d9d9;
+}
+
+.selected {
+	background-color: #3f6a6a;
+}

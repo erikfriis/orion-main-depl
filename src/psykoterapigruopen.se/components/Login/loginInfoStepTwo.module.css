@@ -1,0 +1,51 @@
+.container {
+	height: 60vh;
+	margin-top: 2rem;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.title {
+	font-weight: 600;
+	font-size: 36px;
+	color: #3a3a3a;
+}
+
+.BtnUpload {
+	border: none;
+	border-radius: 10px;
+	background-color: #a5d0d0;
+	color: #3a3a3a;
+	padding: 0.3rem 10rem;
+}
+
+.fileInputBox {
+	width: 25vw;
+	height: 30vh;
+	margin: 2rem;
+	background-color: #eeeded;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 0.15rem dashed #d5d5d5;
+}
+
+.fileInputBox label {
+	padding-top: 0.5rem;
+	font-weight: 700;
+	color: #333333;
+}
+
+.fileInputBox span {
+	color: #69b1b0;
+	text-decoration: underline;
+}
+
+.fileInputBox p {
+	padding: 0 2rem 0 2rem;
+	color: #3a3a3a;
+	text-align: center;
+}

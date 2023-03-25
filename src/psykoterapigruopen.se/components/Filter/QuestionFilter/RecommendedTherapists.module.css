@@ -1,0 +1,23 @@
+.container {
+	background-color: #c3e0df;
+	margin-top: 6rem;
+	padding: 6rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.container h2 {
+	color: #3f6a6a;
+	font-size: 36px;
+}
+
+.cardListContainer {
+	padding: 2rem 5rem;
+	width: 100vw;
+
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	column-gap: 4rem;
+	row-gap: 2.875rem;
+	margin-top: 7.75rem;
+}
